@@ -1,0 +1,66 @@
+body{
+    background: black;
+}
+.calcAll{
+    
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+    position: relative;
+    background:#99FFCC;
+}
+.numbers {
+    display: inline-block;
+    height: 230px;
+    width: 240px;
+    margin-top: 10px;
+    border: 0;
+}
+.numCalc, .upOperNum{
+    margin: 3.5px;
+    height: 50px;
+    width: 50px;
+    background:#99FFCC;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Goldman-Bold;
+    font-size: 25px;
+}
+.windowIn{
+    width: 235px;
+    height: 30px;
+    font-family: Goldman-Bold;
+    background: #99FFDE;  
+    margin: 2px; 
+    border: 0;
+}
+.windowMemory{
+    overflow: auto;
+    font-family: Goldman-Bold;
+    background: #99FFDE; 
+    width: 240px;
+    height: 60px;
+    max-height: 60px;
+    text-align: right;
+    margin: 2px 5px 2px 2px;  
+} 
+.window{
+    background: #99FFDE;
+    border: 2px outset grey;
+    border-radius: 10px;
+    height: 110px;
+}
+
+.numCalc:hover{
+    background:#9999FF;
+}
+
+.upOperNum:hover{
+    background:#FFFF99;
+}
+
+
+@font-face{
+    font-family: Goldman-Bold;
+    src: url(/Project/Калькулятор/font/Goldman-Bold.ttf);
+}
